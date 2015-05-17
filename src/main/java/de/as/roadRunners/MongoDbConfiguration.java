@@ -16,11 +16,11 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 @EnableMongoRepositories
 public class MongoDbConfiguration extends AbstractMongoConfiguration {
 
-    private static final String HOST_NAME = "ds029911.mongolab.com";
+    private static final String HOST_NAME = "";
     private static final int PORT = 29911;
-    private static final String DB_NAME = "ttmasterthesisdb";
-    private static final String USER = "masterthesisexample";
-    private static final String PASSWORD = "DeT%15Fo!";
+    private static final String DB_NAME = "";
+    private static final String USER = "";
+    private static final String PASSWORD = "";
 
     @Override
     protected String getDatabaseName() {
